@@ -1,11 +1,11 @@
-// Global Variables
-@main-font: 'Montserrat', sans-serif;
-@content-font: 'Roboto', sans-serif;
+/* General Variables */
+@main-font: Montserrat, sans-serif;
+@content-font: Roboto, sans-serif;
 @h3-font: 'Kaushan Script', cursive;
-@main-color: #ffffff;
+@main-color: #fff;
 @icon-color: #95e1d3;
 
-// Global Styles
+/* General Styles */
 html, body {
 	max-width: 1920px;
 	min-width: 1230px;
@@ -45,7 +45,7 @@ body {background: @main-color;
 		line-height: 150%;
 		font-family: @content-font;
 		font-size: 0.9375em;
-		color: #999999;
+		color: #999;
 	}
 	li {list-style-type: none;}
 	a {text-decoration: none;}
@@ -69,7 +69,7 @@ body {background: @main-color;
 	background: #f38181;
 }
 
-// Header Styles
+/* Main Header Styles */
 .main-header {
 	position: absolute;
 	top: 0;
@@ -117,7 +117,7 @@ body {background: @main-color;
 	}
 }
 
-// Section-1 Styles
+/* Section-1 Styles */
 @keyframes progressBarFill {
 	from {margin-left: -100%;}
 	to {margin-left: 0;}
@@ -190,8 +190,8 @@ body {background: @main-color;
 							text-transform: uppercase;
 							border: 0.1875em solid @main-color;
 							&:hover {
-								color: #E88382;
-								border-color: #E88382;
+								color: #e88382;
+								border-color: #e88382;
 								transition: .3s;
 							}
 						}
@@ -246,14 +246,14 @@ body {background: @main-color;
 							width: inherit;
 							height: inherit;
 							margin-left: -100%;
-							background: #E88382;
+							background: #e88382;
 						}
 					}
 					span {
 						font-size: 1.4em;
 						font-weight: 700;
 					}
-					&:hover {color: #E88382;}
+					&:hover {color: #e88382;}
 				}
 			}
 		}
@@ -287,7 +287,7 @@ body {background: @main-color;
 	}
 }
 
-// Section-2 Styles
+/* Section-2 Styles */
 #section-2 {
 	max-height: 64.25em;
 	height: 64.25em;
@@ -347,7 +347,7 @@ body {background: @main-color;
 	}
 }
 
-// Section-3 Styles
+/* Section-3 Styles */
 #section-3 {
 	max-width: 1230px;
 	max-height: 43em;
@@ -376,7 +376,7 @@ body {background: @main-color;
 	}	
 }
 
-// Section-4 Styles
+/* Section-4 Styles */
 #section-4 {
 	max-height: 52.8125em;
 	height: 52.8125em;
@@ -400,7 +400,7 @@ body {background: @main-color;
 	}
 }
 
-// Section-5 Styles
+/* Section-5 Styles */
 #section-5 {
 	max-height: 74.375em;
 	height: 74.375em;
@@ -448,7 +448,7 @@ body {background: @main-color;
 				}
 				span:last-child {
 					float: right;
-					color: #cccccc; 
+					color: #ccc; 
 					transition: all .5s;
 				}
 				&:hover {
@@ -547,7 +547,7 @@ body {background: @main-color;
 	}
 }
 
-// Section-6 Styles
+/* Section-6 Styles */
 #section-6 {
 	max-height: 81.92em;
 	height: 81.92em;
@@ -616,7 +616,7 @@ body {background: @main-color;
 	}
 }
 
-// Section-7 Styles
+/* Section-7 Styles */
 #section-7 {
 	max-height: 83.78em;
 	height: 83.78em;
@@ -719,7 +719,7 @@ body {background: @main-color;
 				font-family: 'FontAwesome';
 				font-size: 2.5em;
 				cursor: pointer;
-				color: #cccccc;
+				color: #ccc;
 			}
 			#slide2-1:checked ~ #controls2 label:nth-child(5)::before,
 			#slide2-2:checked ~ #controls2 label:nth-child(1)::before,
@@ -784,7 +784,7 @@ body {background: @main-color;
 	}
 }
 
-// Section-8 Styles
+/* Section-8 Styles */
 #section-8 {
 	max-height: 51.875em;
 	height: 51.875em;
@@ -836,7 +836,7 @@ body {background: @main-color;
 	}
 }
 
-// Section-9 Styles
+/* Section-9 Styles */
 #section-9 {
 	max-height: 48.125em;
 	height: 48.125em;
@@ -903,7 +903,7 @@ body {background: @main-color;
 	}
 }
 
-// Footer Styles
+/* Main Footer Styles */
 @keyframes mapHover {
 	0% {transform: scale(1,1);}
 	25% {transform: scale(0.8,0.8);}
@@ -951,7 +951,7 @@ body {background: @main-color;
 				margin-left: -3px;
 				text-transform: none;
 				font-size: 2.875em;
-				color: #cccccc;
+				color: #ccc;
 			}
 			p {margin: 0;}
 			.about-us-footer {padding: 2em 0 2.5em 0;}
