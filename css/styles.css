@@ -1096,6 +1096,9 @@ body a {
   width: 23.75em;
   height: 2.5em;
 }
+#main-footer .footer-blocks .following form .email_field {
+  display: none;
+}
 #main-footer .footer-blocks .following form input[type=email] {
   width: 16.5em;
   height: 100%;
