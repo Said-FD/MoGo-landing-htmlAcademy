@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
 ///// Anchor Smooth Scroll /////
-  $('a[href^="#"]').click(function(){
+  $('.main-menu a, .about-us a').click(function(e){
+
+    e.preventDefault();
         
     var target = $(this).attr('href');
         
