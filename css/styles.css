@@ -118,8 +118,10 @@ body a {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 0.875em;
+  font-weight: 700;
 }
-.main-header .header-wrapper .main-menu li a:hover {
+.main-header .header-wrapper .main-menu li a:hover,
+.main-header .header-wrapper .main-menu li a:focus {
   color: #fce38a;
   border-bottom: 0.1875em solid #fce38a;
   transition: .1s;
@@ -131,7 +133,9 @@ body a {
   padding: 0.75em 0;
 }
 .main-header .header-wrapper .main-menu li:nth-child(6) a:hover,
-.main-header .header-wrapper .main-menu li:last-child a:hover {
+.main-header .header-wrapper .main-menu li:nth-child(6) a:focus,
+.main-header .header-wrapper .main-menu li:last-child a:hover,
+.main-header .header-wrapper .main-menu li:last-child a:focus {
   border: none;
 }
 /* Section-1 Styles */
@@ -211,11 +215,13 @@ body a {
   text-align: center;
   font-family: Montserrat, sans-serif;
   font-size: 0.875em;
+  font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
   border: 0.1875em solid #ffffff;
 }
-#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover,
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:focus {
   color: #e88382;
   border-color: #e88382;
   transition: .3s;
@@ -261,7 +267,7 @@ body a {
   font-family: Montserrat, sans-serif;
   font-size: 1em;
   color: #f6eac5;
-  font-weight: 400;
+  font-weight: 700;
   cursor: pointer;
   transition: all .3s;
 }
@@ -500,9 +506,6 @@ body a {
 }
 #section-5 .what-we-do-content #accordion .wwd-select:hover {
   cursor: pointer;
-  box-shadow: 0 0 1px #95e1d3;
-}
-#section-5 .what-we-do-content #accordion .wwd-select:focus {
   box-shadow: 0 0 1px #95e1d3;
 }
 #section-5 .what-we-do-content #accordion .focused span:last-child {
@@ -1023,7 +1026,7 @@ body a {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-#main-footer .open-map:hover span {
+#main-footer .open-map:hover span{
   animation: mapHover 1s linear;
 }
 #main-footer .open-map .marker-wrapper {
@@ -1149,7 +1152,8 @@ body a {
   outline-color: transparent;
   box-sizing: border-box;
 }
-#main-footer .footer-blocks .following form input[type=submit]:hover {
+#main-footer .footer-blocks .following form input[type=submit]:hover,
+#main-footer .footer-blocks .following form input[type=submit]:focus {
   -webkit-filter: contrast(110%);
   -moz-filter: contrast(110%);
   -ms-filter: contrast(110%);
